@@ -25,7 +25,7 @@ public class CalServlet extends HttpServlet {
         int num2 = WebUtils.parseInt(strNum2, 0);
         int result = num1 + num2;
 
-        response.setContentType("text/html;charset = utf-8");
+        response.setContentType("text/html;charset=utf-8");
         PrintWriter writer = response.getWriter();
         writer.print("<h1>" + num1 + "+" + num2 + "=" + result + "</h1>");
         writer.flush();

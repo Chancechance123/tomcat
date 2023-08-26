@@ -12,4 +12,12 @@
     <servlet-name>CalServlet</servlet-name>
     <url-pattern>/calServlet</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <servlet-name>XycCalServlet</servlet-name>
+    <servlet-class>com.xyc.tomcat.servlet.XycCalServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>XycCalServlet</servlet-name>
+    <url-pattern>/xycCalServlet</url-pattern>
+  </servlet-mapping>
 </web-app>
